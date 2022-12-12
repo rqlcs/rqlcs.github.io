@@ -1,1 +1,193 @@
-Hello, World !
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Requena Lucas</title>
+  <link rel="shortcut icon" href="./assets/images/logo-page.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/logo-page.png" alt="RequenaLucas" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="RequenaLucas">Lucas Requena</h1>
+
+          <p class="title">Étudiant en informatique</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:requena.lcs@gmail.com" class="contact-link">requena.lcs@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date de Naissance</p>
+
+              <time datetime="1982-06-23">22 Juillet 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Fontainebleau, Seine-et-Marne, FRANCE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>À propos</button>
+          </li>
+        </ul>
+
+      </nav>
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Présentation</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Je suis actuellement étudiant en première année de Bachelor Universitaire de Technologie, en informatique à l'IUT de Fontainebleau, plus précisément en parcours programmation. Durant mes années lycée, j'ai participé à quelques concours et salons autour de la cybersécurité, notamment l'ancienne NuitDuHack rebaptisée "LeHack" durant l'année 2019 à la Cité des Sciences, Paris.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Autres</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/car-passion.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hobbie</h4>
+
+                <p class="service-item-text">
+                  Je suis également un grand passionné d'automobile et plus précisément en cartographie moteur.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-page.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cyber-sécurité</h4>
+
+                <p class="service-item-text">
+                  Également passionné par le domaine de la cyber-sécurité, plus précisemment par le Forensic ainsi que les exploitations web
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photographie</h4>
+
+                <p class="service-item-text">
+                  La photographie est également l'un de mes passe temps.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </article>
+  </main>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
