@@ -54,7 +54,7 @@ a {
 }
 
 h1{
-    font-family: 'Fira Code';
+    font-family: 'Ubuntu Mono';
     font-size: 30px;
     color: var(--color-title);
 }
