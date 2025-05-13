@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/ubuntu-mono');
+
 :root {
     --color-title: #ccd6f6;
     --color-lemon: #64ffda;
@@ -11,7 +13,7 @@ body {
 
 p1,p2,p3,p4 {
     font-size: 15px;
-    font-family: 'Fira Code';
+    font-family: 'Ubuntu Mono';
     padding: 23px;
     color: var(--color-title);
     margin-top: 50px;
@@ -58,7 +60,7 @@ h1{
 }
 
 h2{
-    font-family: 'Fira Code';
+    font-family: 'Ubuntu Mono';
     font-style: italic;
     font-size: 15px;
     color: var(--color-title-sub);
@@ -125,7 +127,7 @@ h2{
 
     p1, p2, p3, p4 {
         font-size: 15px;
-        font-family: 'Fira Code';
+        font-family: 'Ubuntu Mono';
         padding: 23px;
         color: var(--color-title);
         margin-top: 0;
