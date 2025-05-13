@@ -12,7 +12,7 @@ body {
 }
 
 p1,p2,p3,p4 {
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Ubuntu Mono';
     padding: 23px;
     color: var(--color-title);
@@ -55,14 +55,14 @@ a {
 
 h1{
     font-family: 'Ubuntu Mono';
-    font-size: 30px;
+    font-size: 40px;
     color: var(--color-title);
 }
 
 h2{
     font-family: 'Ubuntu Mono';
     font-style: italic;
-    font-size: 15px;
+    font-size: 20px;
     color: var(--color-title-sub);
 }
 
